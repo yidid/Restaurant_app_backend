@@ -1,0 +1,103 @@
+extends ../layout
+
+block content
+ .clearfix
+ 
+ .orders
+  .row
+    .col-xl-10
+      .card
+        .card-body
+          h4.box-title Users
+        .card-body--
+          .table-stats.order-table.ov-h
+            table.table
+              thead
+                tr
+                  th.serial #
+                  th.avatar Avatar
+                  th ID
+                  th Name
+                  th Product
+                  th Quantity
+                  th Status
+              tbody
+                tr
+                  td.serial 1.
+                  td.avatar
+                    .round-img
+                      a(href="#")
+                        img.rounded-circle(src="images/avatar/1.jpg", alt)
+                  td #5469
+                  td
+                    span.name Louis Stanley
+                  td
+                    span.product iMax
+                  td
+                    span.count 231
+                  td
+                    span.badge.badge-complete Complete
+                tr
+                  td.serial 2.
+                  td.avatar
+                    .round-img
+                      a(href="#")
+                        img.rounded-circle(src="images/avatar/2.jpg", alt)
+                  td #5468
+                  td
+                    span.name Gregory Dixon
+                  td
+                    span.product iPad
+                  td
+                    span.count 250
+                  td
+                    span.badge.badge-complete Complete
+                tr
+                  td.serial 3.
+                  td.avatar
+                    .round-img
+                      a(href="#")
+                        img.rounded-circle(src="images/avatar/3.jpg", alt)
+                  td #5467
+                  td
+                    span.name Catherine Dixon
+                  td
+                    span.product SSD
+                  td
+                    span.count 250
+                  td
+                    span.badge.badge-complete Complete
+                tr
+                  td.serial 4.
+                  td.avatar
+                    .round-img
+                      a(href="#")
+                        img.rounded-circle(src="images/avatar/4.jpg", alt)
+                  td #5466
+                  td
+                    span.name Mary Silva
+                  td
+                    span.product Magic Mouse
+                  td
+                    span.count 250
+                  td
+                    span.badge.badge-pending Pending
+                tr.pb-0
+                  td.serial 5.
+                  td.avatar.pb-0
+                    .round-img
+                      a(href="#")
+                        img.rounded-circle(src="images/avatar/6.jpg", alt)
+                  td #5465
+                  td
+                    span.name Johnny Stephens
+                  td
+                    span.product Monitor
+                  td
+                    span.count 250
+                  td
+                    span.badge.badge-complete Complete
+                  
+          //  /.table-stats 
+      //  /.card 
+    //  /.col-lg-8 
